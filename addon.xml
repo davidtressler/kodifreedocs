@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.example"
+<addon id="plugin.video.kodifreedocs"
 version="2.3.1"
 name="Example Kodi Video Plugin"
-provider-name="Roman_V_M">
+provider-name="KodiFreeDocs">
 <requires>
   <import addon="xbmc.python" version="2.25.0"/>
   <import addon="script.module.requests" version="2.22.0"/>
@@ -12,9 +12,9 @@ provider-name="Roman_V_M">
   <provides>video</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
-  <summary lang="en">Example Kodi Video Plugin</summary>
-  <description lang="en_GB">An example video plugin for Kodi mediacenter.</description>
-  <disclaimer lang="en_GB">Free sample videos are provided by www.vidsplay.com.</disclaimer>
+  <summary lang="en"Kodi Free Docs</summary>
+  <description lang="en_GB">Kodi Free Docs</description>
+  <disclaimer lang="en_GB">Kodi Free Docs</disclaimer>
   <assets>
     <icon>icon.png</icon>
     <fanart>fanart.jpg</fanart>
