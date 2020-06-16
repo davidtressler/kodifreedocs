@@ -15,99 +15,20 @@ _url = sys.argv[0]
 # Get the plugin handle as an integer number.
 _handle = int(sys.argv[1])
 
-# Free sample videos are provided by www.vidsplay.com
-# Here we use a fixed set of properties simply for demonstrating purposes
-# In a "real life" plugin you will need to get info and links to video files/streams
-# from some web-site or online service.
-
-
-
-
-
-# VIDEOS = {'David': [{'name': 'David',
-#           'thumb': 'http://www.vidsplay.com/wp-content/uploads/2017/04/crab-screenshot.jpg',
-#           'video': 'https://r6---sn-5hnednlr.googlevideo.com/videoplayback?expire=1591669871&ei=D6DeXsrrDdeN1waM46rYBA&ip=2a02%3Ac7f%3A1edd%3A3300%3A4140%3Ac04b%3Af219%3Ac5c1&id=o-ANHV9sJY4vjGP0XTlAdNP_CtYuaWUUEloWJsANyTqE7h&itag=18&source=youtube&requiressl=yes&vprv=1&mime=video%2Fmp4&gir=yes&clen=466386453&ratebypass=yes&dur=10393.901&lmt=1572311324819175&fvip=2&c=WEB&txp=1311222&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRQIgIAbK6ziGgvFNH4dYWM-useuUGpI78qiKyR-FdwDtzBwCIQDHUbfZi0oIlaHDEz_GTKuL8EO661nHEMGzQ0BMDb92zg%3D%3D&cm2rm=sn-cn3tc-ajt67d,sn-aigez77l&req_id=45c6bfa6ffada3ee&redirect_counter=2&cms_redirect=yes&mh=xu&mm=34&mn=sn-5hnednlr&ms=ltu&mt=1591648425&mv=m&mvi=5&pl=39&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRQIhALWFtX920weYUUBr95CRFkaenP8vpDsdnqCO6vFO65WMAiBQmlY056Ejz2uhhbjG7Bb_1hZkNBlELJLyTo2BoZouHA%3D%3D',
-#           'genre': 'David'},
-#           ],
-#
-#           'Animals': [{'name': 'David',
-#                         'thumb': 'http://www.vidsplay.com/wp-content/uploads/2017/04/crab-screenshot.jpg',
-#                         'video': 'http://www.vidsplay.com/wp-content/uploads/2017/04/crab.mp4',
-#                         'genre': 'Animals'},
-#                       {'name': 'Crab2',
-#                        'thumb': 'http://www.vidsplay.com/wp-content/uploads/2017/04/crab-screenshot.jpg',
-#                        'video': 'http://www.vidsplay.com/wp-content/uploads/2017/04/crab.mp4',
-#                        'genre': 'Animals'},
-#                       {'name': 'Alligator',
-#                        'thumb': 'http://www.vidsplay.com/wp-content/uploads/2017/04/alligator-screenshot.jpg',
-#                        'video': 'http://www.vidsplay.com/wp-content/uploads/2017/04/alligator.mp4',
-#                        'genre': 'Animals'},
-#                       {'name': 'Turtle',
-#                        'thumb': 'http://www.vidsplay.com/wp-content/uploads/2017/04/turtle-screenshot.jpg',
-#                        'video': 'http://www.vidsplay.com/wp-content/uploads/2017/04/turtle.mp4',
-#                        'genre': 'Animals'}
-#                       ],
-#             'Cars': [{'name': 'Postal Truck',
-#                       'thumb': 'http://www.vidsplay.com/wp-content/uploads/2017/05/us_postal-screenshot.jpg',
-#                       'video': 'http://www.vidsplay.com/wp-content/uploads/2017/05/us_postal.mp4',
-#                       'genre': 'Cars'},
-#                      {'name': 'Traffic',
-#                       'thumb': 'http://www.vidsplay.com/wp-content/uploads/2017/05/traffic1-screenshot.jpg',
-#                       'video': 'http://www.vidsplay.com/wp-content/uploads/2017/05/traffic1.mp4',
-#                       'genre': 'Cars'},
-#                      {'name': 'Traffic Arrows',
-#                       'thumb': 'http://www.vidsplay.com/wp-content/uploads/2017/05/traffic_arrows-screenshot.jpg',
-#                       'video': 'http://www.vidsplay.com/wp-content/uploads/2017/05/traffic_arrows.mp4',
-#                       'genre': 'Cars'}
-#                      ],
-#             'Food': [{'name': 'Chicken',
-#                       'thumb': 'http://www.vidsplay.com/wp-content/uploads/2017/05/bbq_chicken-screenshot.jpg',
-#                       'video': 'http://www.vidsplay.com/wp-content/uploads/2017/05/bbqchicken.mp4',
-#                       'genre': 'Food'},
-#                      {'name': 'Hamburger',
-#                       'thumb': 'http://www.vidsplay.com/wp-content/uploads/2017/05/hamburger-screenshot.jpg',
-#                       'video': 'http://www.vidsplay.com/wp-content/uploads/2017/05/hamburger.mp4',
-#                       'genre': 'Food'},
-#                      {'name': 'Pizza',
-#                       'thumb': 'http://www.vidsplay.com/wp-content/uploads/2017/05/pizza-screenshot.jpg',
-#                       'video': 'http://www.vidsplay.com/wp-content/uploads/2017/05/pizza.mp4',
-#                       'genre': 'Food'}
-#                      ]}
-
-VIDEOS = {'Roxy': [{'name':'rxy',
+VIDEOS = {'About': [{'name':'Please Support this Project at : https://www.patreon.com/kodifreedocs ',
          'thumb': 'http://www.vidsplay.com/wp-content/uploads/2017/04/crab-screenshot.jpg',
          'video': 'http://www.google.com',
-         'genre': 'David'},
+         'genre': 'Docs'},
          ]}
-
 
 import requests
 import json
 import time
 f = requests.get('https://davidtressler.github.io/freeDocs/mydata.json')
-t = json.loads(f.text) ; data = t
+t = json.loads(f.text) ; mydata = t
 
 
-
-
-VIDEOS.update(data)
-
-
-
-print("1")
-print("2")
-print("3")
-print("4")
-print("5")
-print("6")
-print("7")
-print("8")
-print("9")
-print("10")
-print("==WORKS")
-print("david")
-print("david")
-print("david")
+VIDEOS.update(mydata)
 
 
 
