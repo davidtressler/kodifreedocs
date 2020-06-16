@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.kodifreedocs"
+<addon id="plugin.video.example"
 version="2.3.1"
-name="Example Kodi Video Plugin"
-provider-name="KodiFreeDocs">
+name="Kodi FreeDocs"
+provider-name="Roman_V_M">
 <requires>
   <import addon="xbmc.python" version="2.25.0"/>
   <import addon="script.module.requests" version="2.22.0"/>
-  
+
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
   <provides>video</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
-  <summary lang="en"Kodi Free Docs</summary>
-  <description lang="en_GB">Kodi Free Docs</description>
-  <disclaimer lang="en_GB">Kodi Free Docs</disclaimer>
+  <summary lang="en">Kodi FreeDocs</summary>
+  <description lang="en_GB">Kodi FreeDocs</description>
+  <disclaimer lang="en_GB">Kodi FreeDocs</disclaimer>
   <assets>
     <icon>icon.png</icon>
     <fanart>fanart.jpg</fanart>
