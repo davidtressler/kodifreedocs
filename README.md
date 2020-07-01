@@ -15,9 +15,8 @@ Add suggestions etc over at:
 https://www.reddit.com/r/Addons4Kodi/comments/hj7bpc/my_first_ever_kodi_addon_can_i_get_some_feedback/
 
 
-<h1>
-  TODO LIST</h1>
+<h5>
+  TODO LIST</h5>
    >> Hand Picked Selection. 
   
-  
-</h1>
+
