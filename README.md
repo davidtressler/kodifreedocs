@@ -16,8 +16,8 @@ https://www.reddit.com/r/Addons4Kodi/comments/hj7bpc/my_first_ever_kodi_addon_ca
 
 
 <h1>
-  TODO LIST
-    > Hand Picked Selection. 
+  TODO LIST</h1>
+   Hand Picked Selection. 
   
   
 </h1>
