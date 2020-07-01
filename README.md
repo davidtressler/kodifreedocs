@@ -1,9 +1,6 @@
 <h2> KODI FREE DOCS. </h2> 
 
-
-Installing on Kodi. 
-Open Kodi and then open Settings from the home screen. Select Add-ons on the left of the screen. Enable the option Unknown Sources. 
-
+The best selection of free Documentries, money cant buy 
 
 Please support this project at https://www.patreon.com/kodifreedocs
 
@@ -16,3 +13,11 @@ https://kodi.wiki/view/HOW-TO:Install_add-ons_from_zip_files
 <h2>Join in</h2>
 Add suggestions etc over at: 
 https://www.reddit.com/r/Addons4Kodi/comments/hj7bpc/my_first_ever_kodi_addon_can_i_get_some_feedback/
+
+
+<h1>
+  TODO LIST
+    > Hand Picked Selection. 
+  
+  
+</h1>
