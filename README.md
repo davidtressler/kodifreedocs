@@ -1,4 +1,4 @@
-KODI FREE DOCS. 
+</h2> KODI FREE DOCS. </h2> 
 
 
 Installing on Kodi. 
