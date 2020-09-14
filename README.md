@@ -7,7 +7,7 @@ Please support this project at https://www.patreon.com/kodifreedocs
 
 
 Help on Installing 3rd Party Plugins can be found at: 
-https://kodi.wiki/view/HOW-TO:Install_add-ons_from_zip_files
+https://kodi.wiki/view/Add-on_manager
 
 
 <h2>Join in</h2>
