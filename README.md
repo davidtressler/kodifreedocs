@@ -7,7 +7,7 @@ Please support this project at https://www.patreon.com/kodifreedocs
 <h1> DOWNLOAD </h1>
     
  <a href="https://github.com/davidtressler/kodifreedocs/archive/master.zip" download>
-  <img src="https://e7.pngegg.com/pngimages/966/93/png-clipart-logo-blue-button-icons-logos-emojis-download-buttons.png">
+  <img src="https://lh3.googleusercontent.com/proxy/SXtUEiHgdGITthJ9BqMRLGfT0feuLzJtkEl_fN4hYSn1Hayc6-yPSuB144Y16yumJPMkOEIa1--Hk7AYWo3bt6F6VoAdQd_PFqctPY0H6nPrOfJnuCPyyjbP5CEEwPgNqdppUBAnDpgmZq7C3A">
 </a>
 
 
