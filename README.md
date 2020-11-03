@@ -4,6 +4,10 @@ The best selection of free Documentries, money cant buy
 
 Please support this project at https://www.patreon.com/kodifreedocs
 
+<h1> DOWNLOAD </h1>
+    
+    https://github.com/davidtressler/kodifreedocs/archive/master.zip
+
 
 <h2> How to install from a ZIP file </h2>
 
