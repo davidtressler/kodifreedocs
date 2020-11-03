@@ -6,7 +6,12 @@ Please support this project at https://www.patreon.com/kodifreedocs
 
 <h1> DOWNLOAD </h1>
     
-    https://github.com/davidtressler/kodifreedocs/archive/master.zip
+ <a href="https://github.com/davidtressler/kodifreedocs/archive/master.zip" download>
+  <img src="https://e7.pngegg.com/pngimages/966/93/png-clipart-logo-blue-button-icons-logos-emojis-download-buttons.png">
+</a>
+
+
+    
 
 
 <h2> How to install from a ZIP file </h2>
